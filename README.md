@@ -8,6 +8,9 @@ ThinkPHP5.1+(中间件要求支持ThinkPHP5.1.6+)
 
 ## 安装
 ~~~
+# 新建一个ThinkPHP新项目，目录名为wechat
+composer create-project topthink/think=5.1.* wechat --prefer-dist
+cd wechat
 composer require naixiaoxin/think-wechat 
 ~~~
 
